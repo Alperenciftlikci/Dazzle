@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dali - AI Image Generator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            min-height: 100vh;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 40px 20px;
+            background: radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a0a 70%);
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 32px rgba(138, 92, 246, 0.3);
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline {
+            font-size: 20px;
+            color: #a0a0b0;
+            margin-bottom: 40px;
+            max-width: 500px;
+        }
+        .features {
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 48px;
+            max-width: 800px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 24px;
+            width: 220px;
+            text-align: center;
+        }
+        .feature-icon {
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+        .feature h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .feature p {
+            font-size: 13px;
+            color: #888;
+            line-height: 1.5;
+        }
+        .app-store-btn {
+            display: inline-block;
+            margin-bottom: 48px;
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        .app-store-btn:hover { transform: scale(1.05); }
+        .footer {
+            padding: 32px 20px;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            background: rgba(0,0,0,0.4);
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: #8b8b9b;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover { color: #8b5cf6; }
+        .footer p {
+            color: #555;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="icon.png" alt="Dali App Icon" class="logo">
+        <h1>Dali</h1>
+        <p class="tagline">Transform your photos into stunning AI art with 35+ unique styles in seconds.</p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🎨</div>
+                <h3>35+ Art Styles</h3>
+                <p>Ghibli, Pixar, Oil Painting, Anime, Cyberpunk and many more.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💬</div>
+                <h3>AI Chat</h3>
+                <p>Chat with AI to transform your photos. Just describe what you want.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Generation</h3>
+                <p>Powered by advanced AI. Get results in seconds, not minutes.</p>
+            </div>
+        </div>
+
+        <a href="#" class="app-store-btn">Coming Soon on the App Store</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Terms of Use</a>
+            <a href="mailto:daliphoto.app@gmail.com">Contact Us</a>
+        </div>
+        <p>&copy; 2025 Dali. All rights reserved.</p>
+    </footer>
+</body>
+</html>
